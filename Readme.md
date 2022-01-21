@@ -1,18 +1,19 @@
 # Ambientacion de Django
 ## Instalacion del recurso RESTframework
-´´´bash
+```bash
 pip install djangorestframework
-´´´
+```
 
-´´´bash
+```bash
 pip install markdown
-´´´
+```
 
-´´´bash
+```bash
 pip install django-filter
-´´´
+```
 
 ## agregar libreria a INSTALLED_APPS en settings
-´´´bash
+```bash
 'rest_framework',
-´´´
+```
+ 
