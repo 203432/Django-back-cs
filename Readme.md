@@ -25,5 +25,11 @@ pip install django-filter
 'pip install python-dotenv',
 ```
 
+```bash
+'pip install psycopg2',
+```
+
+
+
 
  
