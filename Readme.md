@@ -30,6 +30,10 @@ pip install django-filter
 'pip install pillow',
 ```
 
+```bash
+'pip install psycopg2',
+```
+
 
 
  
