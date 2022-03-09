@@ -9,6 +9,7 @@ class RegistroView(generics.CreateAPIView):
      queryset = User.objects.all()
      permission_classes = (AllowAny,)
      serializer_class = RegisterSerializer
+     
 
 
     # def post(self, request):

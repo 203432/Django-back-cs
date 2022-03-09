@@ -13,11 +13,12 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='PrimerTabla',
+            name='TablaArchivo',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('nombre', models.CharField(max_length=50)),
-                ('edad', models.IntegerField()),
+                ('name_img', models.CharField(max_length=50)),
+                ('url_img', models.ImageField(blank=True, default='', null=True, upload_to='assets/img/')),
+                ('format_img', models.CharField(max_length=10)),
                 ('created', models.DateTimeField(default=django.utils.timezone.now)),
                 ('edited', models.DateTimeField(blank=True, default=None, null=True)),
             ],

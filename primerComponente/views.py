@@ -12,12 +12,7 @@ from primerComponente.serializers import PrimerTablaSerializer
 # Importacion para poder parsear a JSON
 import json
 
-
 # Create your views here.
-
-
-
-
 
 class PrimerTablaList(APIView):
     def createJson(self,message,data,status):
